@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var authButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        authButton.clipsToBounds = true
+        authButton.layer.cornerRadius = authButton.frame.size.height / 2
     }
 
     override func didReceiveMemoryWarning() {

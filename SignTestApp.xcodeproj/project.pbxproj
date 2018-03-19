@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A4311138A3CA72DB253682 /* Pods_SignTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBEEC057937EBCB88D8F6A /* Pods_SignTestApp.framework */; };
 		515758D1205C2BA700C3DA04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515758D0205C2BA700C3DA04 /* AppDelegate.swift */; };
 		515758D3205C2BA700C3DA04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515758D2205C2BA700C3DA04 /* ViewController.swift */; };
 		515758D6205C2BA700C3DA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515758D4205C2BA700C3DA04 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		515758DB205C2BA700C3DA04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515758D9205C2BA700C3DA04 /* LaunchScreen.storyboard */; };
 		515758E6205C2BA700C3DA04 /* SignTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515758E5205C2BA700C3DA04 /* SignTestAppTests.swift */; };
 		515758F1205C2BA700C3DA04 /* SignTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515758F0205C2BA700C3DA04 /* SignTestAppUITests.swift */; };
+		515758FF205C31C600C3DA04 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515758FE205C31C600C3DA04 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27EBEEC057937EBCB88D8F6A /* Pods_SignTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		515758CD205C2BA700C3DA04 /* SignTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515758D0205C2BA700C3DA04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		515758D2205C2BA700C3DA04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		515758EC205C2BA700C3DA04 /* SignTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		515758F0205C2BA700C3DA04 /* SignTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTestAppUITests.swift; sourceTree = "<group>"; };
 		515758F2205C2BA700C3DA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515758FE205C31C600C3DA04 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8424BD750907A6712F575469 /* Pods-SignTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignTestApp/Pods-SignTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F421CAE2819FB9E4BAB6EC27 /* Pods-SignTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignTestApp/Pods-SignTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A4311138A3CA72DB253682 /* Pods_SignTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CF55E82C3A12D3CBB4FAAB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27EBEEC057937EBCB88D8F6A /* Pods_SignTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		515758C4205C2BA700C3DA04 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				515758E4205C2BA700C3DA04 /* SignTestAppTests */,
 				515758EF205C2BA700C3DA04 /* SignTestAppUITests */,
 				515758CE205C2BA700C3DA04 /* Products */,
+				984AAC3BA7435258AABF8202 /* Pods */,
+				3CF55E82C3A12D3CBB4FAAB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,7 @@
 			children = (
 				515758D0205C2BA700C3DA04 /* AppDelegate.swift */,
 				515758D2205C2BA700C3DA04 /* ViewController.swift */,
+				515758FE205C31C600C3DA04 /* AuthViewController.swift */,
 				515758D4205C2BA700C3DA04 /* Main.storyboard */,
 				515758D7205C2BA700C3DA04 /* Assets.xcassets */,
 				515758D9205C2BA700C3DA04 /* LaunchScreen.storyboard */,
@@ -125,6 +143,15 @@
 			path = SignTestAppUITests;
 			sourceTree = "<group>";
 		};
+		984AAC3BA7435258AABF8202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8424BD750907A6712F575469 /* Pods-SignTestApp.debug.xcconfig */,
+				F421CAE2819FB9E4BAB6EC27 /* Pods-SignTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 515758F5205C2BA700C3DA04 /* Build configuration list for PBXNativeTarget "SignTestApp" */;
 			buildPhases = (
+				50AC34EF75F6B3CEE9A04543 /* [CP] Check Pods Manifest.lock */,
 				515758C9205C2BA700C3DA04 /* Sources */,
 				515758CA205C2BA700C3DA04 /* Frameworks */,
 				515758CB205C2BA700C3DA04 /* Resources */,
+				025AFED7E68F0595AB5205F4 /* [CP] Embed Pods Frameworks */,
+				2337A2DACECB67C1ECFCEB63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +284,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		025AFED7E68F0595AB5205F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SignTestApp/Pods-SignTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignTestApp/Pods-SignTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2337A2DACECB67C1ECFCEB63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignTestApp/Pods-SignTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50AC34EF75F6B3CEE9A04543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		515758C9205C2BA700C3DA04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				515758D3205C2BA700C3DA04 /* ViewController.swift in Sources */,
+				515758FF205C31C600C3DA04 /* AuthViewController.swift in Sources */,
 				515758D1205C2BA700C3DA04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +509,12 @@
 		};
 		515758F6205C2BA700C3DA04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8424BD750907A6712F575469 /* Pods-SignTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SignTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.SignTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +525,12 @@
 		};
 		515758F7205C2BA700C3DA04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F421CAE2819FB9E4BAB6EC27 /* Pods-SignTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SignTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.SignTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
